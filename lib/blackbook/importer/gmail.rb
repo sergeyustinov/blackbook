@@ -40,8 +40,8 @@ class Blackbook::Importer::Gmail < Blackbook::Importer::PageScraper
   # scrape gmail contacts for this importer
 
   def scrape_contacts
-    unless agent.cookies.find{|c| c.name == 'GAUSR' && 
-                           c.value == "mail:#{options[:username]}"}
+     unless agent.cookies.find{|c| c.name == 'GAUSR' &&
+                            (c.value =~ /mail.*:#{options[:username]}/)!=nil}
       raise( Blackbook::BadCredentialsError, "Must be authenticated to access contacts." )
     end
     
