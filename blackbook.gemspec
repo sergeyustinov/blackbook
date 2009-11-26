@@ -1,7 +1,7 @@
 --- !ruby/object:Gem::Specification 
 name: blackbook
 version: !ruby/object:Gem::Version 
-  version: 1.0.5
+  version: 1.0.51
 platform: ruby
 authors: 
 - Contentfree
@@ -88,6 +88,7 @@ files:
 - lib/blackbook/importer/base.rb
 - lib/blackbook/importer/csv.rb
 - lib/blackbook/importer/gmail.rb
+- lib/blackbook/importer/gmx.rb
 - lib/blackbook/importer/hotmail.rb
 - lib/blackbook/importer/page_scraper.rb
 - lib/blackbook/importer/yahoo.rb

@@ -12,6 +12,7 @@ lib/blackbook/importer/aol.rb
 lib/blackbook/importer/base.rb
 lib/blackbook/importer/csv.rb
 lib/blackbook/importer/gmail.rb
+lib/blackbook/importer/gmx.rb
 lib/blackbook/importer/hotmail.rb
 lib/blackbook/importer/page_scraper.rb
 lib/blackbook/importer/yahoo.rb

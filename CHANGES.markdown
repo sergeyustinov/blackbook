@@ -1,3 +1,8 @@
+== 1.0.51 / 2009-11-26
+
+* fixed bug with gmail
+* added to gem pack gmx importer
+
 == 1.0.5 / 2008-11-26
 
 * moved to github
